@@ -1,0 +1,139 @@
+body{
+	margin-top:105px;
+}
+
+.navbar{
+	box-shadow:2px 2px 5px #BB2737;
+	background:white;
+	opacity:0.8;
+}
+
+
+
+.navbar-brand-m{
+	color:#BB2737;
+}
+
+.navbar-link-m{
+	color:#BB2737 !important;
+	font-weight:bold;
+	
+}
+
+.mt-4-m{
+	margin-top:26px;
+}
+
+
+#showcase{
+	background-image:url('../img/bbg.jpg');
+	min-height:600px;
+}
+
+#authors img{
+margin-top: -50px;
+  }
+
+#authors .fa{
+    font-size: 25px;
+  }
+
+#authors .card:hover{
+    background:#3292a6;;
+    color: #fff;
+	transition:0.5s all ease;
+}
+
+#authors .card:hover .fa{
+    color: #fff;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+/*-- Media Quaries SX--*/
+
+@media only screen and (max-width: 575px) {
+	
+.display-1{
+	font-size:53px;
+}
+	
+#showcase{
+	background-image:url('../img/bbg.jpg');
+	min-height:500px;
+}	
+	
+}
+
+
+
+
+
+
+
+/*-- Media Quaries SM--*/
+
+@media only screen and (min-width: 576px) {
+	
+.display-1{
+	font-size:68px;
+}	
+	
+}
+
+
+
+
+
+
+
+
+/*-- Media Quaries MD--*/
+
+@media only screen and (min-width: 768px) {
+
+
+.navbar-link-m{
+	color:#fff  !important;
+	font-weight:bold;
+	background:#B52435;
+	transition:0.5s all ease;
+	margin-right:2px;
+}
+
+.navbar-link-m:hover{
+	color:#B52435 !important;
+	background:#fff;
+}
+
+.mt-4-m{
+	margin-top:0px;
+}
+
+.display-1{
+	font-size:78px;
+}
+
+
+}
+
+
+
+
+
+
+/*-- Media Quaries MD--*/
+
+@media only screen and (min-width: 1200px) {
+.display-1{
+	font-size:106px;
+}
+}
